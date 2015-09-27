@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivityPlaceholderFragment"
+    style="@style/BlueBack" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_title"
+        android:textSize="10pt"
+        android:id="@+id/my_title"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:text="@string/first_app"
+        android:id="@+id/first_app"
+        android:onClick="clickedApp"
+        style="@style/RegularAppButton" />
+    <Button
+        android:layout_marginTop="100dp"
+        android:text="@string/second_app"
+        android:id="@+id/second_app"
+        android:onClick="clickedApp"
+        style="@style/RegularAppButton"/>
+    <Button
+        android:layout_marginTop="150dp"
+        android:text="@string/third_app"
+        android:id="@+id/third_app"
+        android:onClick="clickedApp"
+        style="@style/RegularAppButton"/>
+    <Button
+        android:layout_marginTop="200dp"
+        android:text="@string/capstone_app"
+        android:id="@+id/capstone_app"
+        android:onClick="clickedApp"
+        style="@style/CapstoneAppButton"/>
+</FrameLayout>
